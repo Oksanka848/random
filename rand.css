@@ -1,8 +1,12 @@
 body {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: baseline;
+  margin: 10%;
+  width: 40%;
 }
-input {
-  width: 70%;
-  height: 10%;
-  margin: 2%;
+input,
+button {
+  margin: 10%;
 }
