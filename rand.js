@@ -18,9 +18,11 @@ button.onclick=ranDomf2;
         function ranDomf(min, max) {
                     return Math.floor(Math.random() * (max - min + 1)) + min;
                     } 
-for (let i=0; i<10; i++) {
+for ( i=0; i<10; i++) {
 arr.push(ranDomf(-10, 10));}
+
 console.log(arr);
+
 numbs.value=arr;
 numbs.innerHTML+=numbs.value;
 let summ = arr.reduce((sum, i) => sum + i);
@@ -38,4 +40,5 @@ maxnumb.innerHTML+=maxnumb.value;
 let midnumb2 = sum.value / arr.length;
 midnumb.value=midnumb2;
 midnumb.innerHTML+=midnumb.value;
+
 } 
