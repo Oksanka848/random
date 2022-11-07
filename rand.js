@@ -11,13 +11,16 @@ button.onclick=ranDomf2;
     let midnumb  = document.getElementById('mid');
     let sum  = document.getElementById('sum');
     let mult  = document.getElementById('mult');
-    let arr = [];
+    
         function ranDomf2 () {
         function ranDomf(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
-                    } 
+                    }
+                    let arr = []; 
 for ( i=0; i<10; i++) {
-arr.push(ranDomf(-10, 10));}
+arr.push(ranDomf(-10, 10));
+
+}
 console.log(arr);
 numbs.value=arr;
 numbs.innerHTML=numbs.value;
